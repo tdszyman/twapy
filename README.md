@@ -8,6 +8,8 @@ This package contains Python code to build and evaluate models for studying temp
 In this example the strings `'Ronald Reagan'` and `'Bill Clinton'` both represent the semantic concept `president of the
  United States` at different points in time, and thus they constitute a temporal word analogy.
 
+A demo of this application may or may not be running at http://twapy.affrication.org/
+
 A discussion of the approach implemented in this package and the types of results it generates will appear at the 2017
 Annual Meeting of the Association for Computational Linguistics (ACL 2017). If you use this code, please cite the
 following paper:
@@ -29,6 +31,7 @@ following paper:
 * Python 3
 * gensim
 * sklearn
+* flask (for the web server)
 * pandas (for the evaluation scripts)
 
 This package was developed with Python 3.6, gensim version 2.2, sklearn version 0.18, and pandas version 0.20. It will
